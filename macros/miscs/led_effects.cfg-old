@@ -1,20 +1,4 @@
-[thermistor CMFB103F3950FANT]
-temperature1: 0.0
-resistance1: 32116.0
-temperature2: 40.0
-resistance2: 5309.0
-temperature3: 80.0
-resistance3: 1228.0
 
-## CT - Frame PCB
-## Chamber thermistor
-[temperature_sensor chamber_temp]
-sensor_type: CMFB103F3950FANT
-sensor_pin: umb:gpio28
-pullup_resistor: 2200
-min_temp: 0
-max_temp: 100
-gcode_id: chamber_th
 
 [led_effect bed_temperature]
 leds:
